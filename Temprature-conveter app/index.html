@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temprature converter web-app</title>
+</head>
+<body>
+    <div class="container">
+        <div id="title"><h4>Convert Temprature</h4></div>
+
+        <div class="convert_value">
+            <label for="">Value To Convert</label>
+            <input id="input_value" type="number" placeholder="Enter here" value="0">
+        </div>
+        
+
+        <div class="input">
+            <div>
+                <label for="">From</label>
+                <select name="input" id="from">
+                    <option value="celsius">Celsius</option>
+                    <option value="farenhite">Farenhite</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+            </div>    
+            <div>
+                <label>To</label>
+                <select name="input" id="to">
+                    <option value="celsius">Celsius</option>
+                    <option value="farenhite">Farenhite</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>  
+            </div>      
+        </div> 
+
+       
+       
+        <div class="result">
+            <div>
+                <label for="">Answer</label>
+                <input id="output" type="text" name="" id="res" disabled>
+            </div>
+            <div class="btn"> 
+                <button id="clear">Clear</button>
+               
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
